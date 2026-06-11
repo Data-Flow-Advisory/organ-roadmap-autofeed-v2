@@ -1,0 +1,20 @@
+{
+  "state": {
+    "enabled": true,
+    "pending_count": 0,
+    "queue_threshold": 5,
+    "scoper_available": true,
+    "scoper_name": "Sam",
+    "top_k": 3,
+    "existing_correlations": [
+      "roadmap-autofeed-stream-40",
+      "roadmap-autofeed-stream-41"
+    ],
+    "ranked_streams": [
+      {"id": "stream_40", "title": "Live Coach second-screen", "c4_unblocks_count": 4},
+      {"id": "stream_41", "title": "Human-in-the-loop decisions", "c4_unblocks_count": 3},
+      {"id": "stream_29", "title": "Entity resolution v2", "c4_unblocks_count": 2}
+    ]
+  },
+  "context": {"reason": "two streams already in-flight; only the fresh one should feed"}
+}
